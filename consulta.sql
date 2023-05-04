@@ -20,8 +20,10 @@ Table roles {
   name varchar(40) [not null]
 }
 
-//Un usuario puede tener uno o muchos roles ->M
-//un rol puede tener uno o varios usuarios -> M
+/*
+ Un usuario puede tener uno o muchos roles ->M
+ un rol puede tener uno o varios usuarios -> M
+*/
 
 Table course {
   id int [pk, increment]
